@@ -10,6 +10,7 @@ export const config: Config = {
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
+      binary: "/Applications/GoogleChrome.app/Contents/MacOS/Google Chrome",
       args: ['--headless', '--disable-gpu', '--window-size=800,600', '--no-sandbox']
     }
   },

@@ -10,7 +10,6 @@ export const config: Config = {
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
-      binary: "D:/Program Files/Chrome/chrome.exe",
       args: ['--headless', '--disable-gpu', '--window-size=800,600', '--no-sandbox']
     }
   },
